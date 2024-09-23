@@ -1,0 +1,51 @@
+{
+  "name": "express-trim-strings",
+  "version": "0.1.0",
+  "description": "Trim Strings of Request Body and Query",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint --ext .ts src/ --parser-options=project:'tsconfig.json'",
+    "lint:tests": "eslint --ext .ts tests/ --parser-options=project:'tests/tsconfig.json'",
+    "fmt": "prettier --config .prettierrc 'src/**/*.ts' 'tests/**/*.ts' --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/arafatkn/express-trim-strings.git"
+  },
+  "keywords": [
+    "express",
+    "trim",
+    "strings"
+  ],
+  "author": "Arafat Islam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arafatkn/express-trim-strings/issues"
+  },
+  "homepage": "https://github.com/arafatkn/express-trim-strings#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.12",
+    "@types/lodash": "^4.17.7",
+    "@types/node": "^20.14.9",
+    "@typescript-eslint/eslint-plugin": "^7.14.1",
+    "@typescript-eslint/parser": "^7.14.1",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.3.2",
+    "routing-controllers": "^0.10.4",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "lodash": "^4.17.21"
+  }
+}
