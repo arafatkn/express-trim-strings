@@ -14,6 +14,12 @@ Trim whitespace from request body.
 ```bash
 npm install express-trim-strings
 ```
+```bash
+pnpm add express-trim-strings
+```
+```bash
+yarn add express-trim-strings
+```
 
 ## Usage
 ### JavaScript
